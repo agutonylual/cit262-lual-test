@@ -1,15 +1,25 @@
 {
-  "name": "nodejsexample",
+  "name": "vue-event-bulletin",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Demo application for the scotch.io tutorial",
+  "main": "server.js",
+  "author": "Ryan Chenkie, Jason Lam",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1",
+    "vue": "^1.0.10",
+    "vue-resource": "^0.1.17"
+  },
+  "devDependencies": {
+    "body-parser": "^1.14.1",
+    "errorhandler": "^1.4.2",
+    "method-override": "^2.3.5",
+    "morgan": "^1.6.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://agutonylual.github.io/cit262-lual-test/"
-  },
-  "author": "Agutony Lual",
-  "license": "ISC",
-  "description": ""
+    "start": "node server.js"
+  }
 }
