@@ -5,7 +5,7 @@ on:
     types:
       - closed
 env:
-  REPO_NAME: agutonylual/cit262-lual-test
+  REPO_NAME: agutony/cit262-lual-bb
 
 jobs:
   if_merged:
